@@ -13,7 +13,7 @@ angular.module("myApp").controller("helloController", function (gettext, gettext
     var myString = gettext("2: No comment");
 
     /// Plural Comments
-    var myString = gettextCatalog.getPlural(2, "3: Bird", "Birds");
+    var myString = gettextCatalog.getPlural("3: Bird", 2, "Birds");
 
     /// gettextCatalog.getString() comment
     var myString = gettextCatalog.getString("4: gettextCatalog.getString comment");
